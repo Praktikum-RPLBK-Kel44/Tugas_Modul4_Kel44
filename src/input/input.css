@@ -1,0 +1,10 @@
+/* Input Styling */
+.form {
+  padding: "7px";
+  outline: "none";
+  border-radius: "7px";
+  font-family: "poppins";
+  font-size: "15px";
+  background: "red";
+}
+/* Input Styling Done */
