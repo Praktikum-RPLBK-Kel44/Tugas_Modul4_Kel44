@@ -5,38 +5,8 @@ import "../App.css";
 import lis1 from "../card/list1";
 import lis2 from "../card/list2";
 import lis3 from "../card/list3";
-// import supra from "../asset/image/SupraGR201.jpg";
-// import supraY from "../asset/image/SupraY.jpg";
-// import supraW from "../asset/image/supraW.jpg";
-// import logo from "../asset/image/logo512.png";
 
 export const productTupp = () => {
-  // const data = [
-  //   {
-  //     name: "Randi Nur Ardianto",
-  //     nim: "21120118130069",
-  //     kelompok: "20",
-  //     image: logo,
-  //   },
-  //   {
-  //     name: "Teddy Anggi",
-  //     nim: "21120115130055",
-  //     kelompok: "20",
-  //     image: supra,
-  //   },
-  //   {
-  //     name: "Maba 21",
-  //     nim: "21120121130069",
-  //     kelompok: "30",
-  //     image: supraY,
-  //   },
-  //   {
-  //     name: "Maba 21",
-  //     nim: "21120121130055",
-  //     kelompok: "40",
-  //     image: supraW,
-  //   },
-  // ];
   return (
     <div>
       <BrowserRouter>

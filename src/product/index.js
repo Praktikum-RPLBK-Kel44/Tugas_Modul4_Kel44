@@ -1,33 +1,6 @@
 import { useState, useEffect } from "react";
 
 export default function Index() {
-  // const [data, setData] = useState([]);
-
-  // // dipanggil hanya sekali
-  // useEffect(() => {
-  //   fetch("https://jsonplaceholder.typicode.com/todos")
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       console.log("[ini data]", data);
-  //       setData(data);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // }, []);
-
-  // return (
-  //   <div className="container">
-  //     <p className="title" style={{ marginTop: 40 }}>
-  //       list Todo
-  //     </p>
-  //     <ol>
-  //       {data.slice(0, 10).map((value) => (
-  //         <li key={value.id}>{value.title}</li>
-  //       ))}
-  //     </ol>
-  //   </div>
-  // );
 
   const [data, setData] = useState([]);
 
@@ -43,11 +16,6 @@ export default function Index() {
         console.log(err);
       });
   }, []);
-
-  // const handleButton = (props) => {
-  //   alert("Hai ini namanya");
-  // };
-  // const {value} = props;
 
   return (
     <div

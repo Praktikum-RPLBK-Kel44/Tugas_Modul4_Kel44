@@ -38,8 +38,8 @@
 }
 
 .navv {
-  border: 1px solid white;
-  background-color: #f9f9f1;
+  background-color: #eef1ef;
+  align-items: center;
 }
 
 .content {
@@ -53,4 +53,46 @@
   border: 1px solid black;
   padding: 5px 15px 5px 15px;
   margin: 10px;
+}
+
+.judul{
+  background-color: rgb(56, 56, 56);
+  padding-left: 10px;
+  padding-right: 15px;
+  text-align: center;
+  color: white;
+}
+
+.judul1{
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.menu {
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(51, 51, 51);
+}
+
+li {
+  float: left;
+  align-items: center;
+  align-content: center;
+}
+
+li a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
